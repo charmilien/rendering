@@ -35,7 +35,7 @@ function draw(){
    // console.log(box2.body.angle);
     box1.display();
     box2.display();
-    log.display()
+    //log.display()
     ground.display();
    
     
