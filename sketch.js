@@ -23,12 +23,13 @@ function setup(){
     log=new Box(100,100,100,20)
     //angleMode(DEGREES)
     Matter.Body.setAngle(log.body,40)
+     Render.run(render)
 }
 
 function draw(){
     background(0);
     Engine.update(engine);
-    Render.run(render)
+ 
    // console.log(box2.body.position.x);
    // console.log(box2.body.position.y);
    // console.log(box2.body.angle);
